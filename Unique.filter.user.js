@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Unique filter
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Let's you filter unique items
 // @author       xjotto
 // @match        https://docs.median-xl.com/doc/items/sacreduniques
@@ -28,6 +28,7 @@
 		.css('background', 'linear-gradient(#181818,#1a1b1b 10%,#1a1b1b 80%,#181818)')
 		.css('border', '1px solid #302E2E')
 		.css('outline-color', '#555')
+		.css('margin-bottom', '1 rem')
 		.change(function() {
 			var value = this.value.toLowerCase();
 			for (var i = 0; i < new_list.length; ++i) { new_list[i].element.hide(); }
