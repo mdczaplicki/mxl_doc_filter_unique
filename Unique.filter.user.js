@@ -2,10 +2,11 @@
 // @name         Unique filter
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  try to take over the world!
-// @author       You
+// @description  Let's you filter unique items
+// @author       Marek Czaplicki
 // @match        https://docs.median-xl.com/doc/items/*
 // @grant        none
+// @license      GNU
 // ==/UserScript==
 
 (function() {
