@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Unique filter
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.4
 // @description  Let's you filter unique items
 // @author       xjotto
 // @match        https://docs.median-xl.com/doc/items/sacreduniques
