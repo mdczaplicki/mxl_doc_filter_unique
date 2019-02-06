@@ -29,14 +29,14 @@
 		.css('border', '1px solid #302E2E')
 		.css('outline-color', '#555')
 		.css('margin-bottom', '1 rem')
-		.css('width', '100%')
+        .css('width', '100%')
 		.change(function() {
 			var value = this.value.toLowerCase();
 			for (var i = 0; i < new_list.length; ++i) { new_list[i].element.hide(); }
 			$('.uindex').hide();
 			$('.p-Items').find('.text_on_the_left').children('br').remove();
-			for (var i = 0; i < new_list.length; ++i) {
-				var new_obj = new_list[i];
+			for (var j = 0; j < new_list.length; ++j) {
+				var new_obj = new_list[j];
 				if (new_obj.magic.includes(value)) {
 					new_obj.element.show();
 				}
