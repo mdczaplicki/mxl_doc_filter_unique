@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Let's you filter unique items
 // @author       xjotto
-// @match        https://docs.median-xl.com/doc/items/*
+// @match        https://docs.median-xl.com/doc/items/sacreduniques
 // @grant        none
 // @license      GNU
 // @updateURL    https://github.com/mdczaplicki/mxl_doc_filter_unique/raw/master/Unique.filter.user.js
